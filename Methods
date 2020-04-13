@@ -1,0 +1,35 @@
+The open-source software Sonic Visualiser[7] (SV) version 3.3 was the principal computer tool employed for data annotation and extraction. It mainly serves to collect timing and dynamic information accurately and to visualize musical tracks in both wave and spectrographic forms. In spectrograms, frequency occupies the vertical dimension, from top to bottom. The lower area stands for the lowest sounds in the spectrum, including the base frequencies of given tones, whereas higher, more remote overtones occupy higher positions. The passing of time is represented from left to right along the horizontal axis. Red or orange tonalities in the RBC dataset spectrograms indicate a higher prominence of harmonics in comparison to those marked in yellow or green.
+Besides providing the original SV files (named as movement-recording_abbreviation- measurement_unit), extracted data are given in the form of .txt files. File names always follow a standardised format: movement-recording_abbreviation-parameter-measurement_unit. Spaces are avoided and, when necessary, two words forming a single item are united by an underscore (_).
+
+The performative parameters analyzed are, by order of extraction:
+-	tappings (time instants)
+-	beat duration (s)
+-	tempo (bpm)
+-	dynamics:[8] smoothed power (dB)
+-	dynamics: dB per beat (dB)
+
+Measurement units for each movement are:
+-	Op. 38i: quarter note / half note / bar[9]
+-	Op. 38ii: eighth note / quarter note / bar
+-	Op. 38iii: quarter note / half note / bar 
+-	Op. 99i: quarter note / bar
+-	Op. 99ii: sixteenth note / eighth note / quarter note / bar 
+
+Data were extracted by:
+-	uploading the desired track to the program. The corresponding wave form appears on the screen (layer 2 in SV files)
+-	generating a spectrographic image (layer 3)
+-	tapping the recording while it is being played at normal – or the most convenient – speed to determine beat starts. Tappings appear in the form of white vertical lines that cover the whole vertical space of the wave form (layer 4). Approximate values for those tappings are obtained. Initial measurement unit at this stage is the smallest possible.
+-	adjusting provisional tappings to the start of each tapped note as visualized in the spectrogram (Cook, 2009).
+-	aurally checking the accuracy of the tappings by playing the track at a significantly slower speed and relocating the lines when necessary. When asynchronies between the cello and the piano occur, tappings are adjusted according to the rhythmically most active part, normally the piano. 
+-	numbering the tappings to show bar and beat number within bars (they are given in the form of bar.beat annotations).
+-	exporting tapping data as a .txt file.
+-	obtaining tappings for bigger measurement units by deleting undesired tapping lines. Corresponding SV files are created.
+-	renumbering tappings and exporting corresponding files
+-	creating, for each measurement unit, two Time Values layers[10] to yield information regarding 
+o	beat duration (in seconds) (layer 5, in green)
+o	tempo (bpm) from the previous item (layer 6, in orange). Data are exported as .txt files. 
+-	creating a Smoothed Power[11] layer (layer 7, in purple) and exporting data as a .txt file. 
+-	aligning smoothed power data and tappings for each measurement unit. For that, an open-source Dyn-a-matic tool[12] was employed, and data were saved as .txt. files.[13] 
+
+Once data were obtained, separate scape plots for tempo and dynamics (generated from dB-per-beat data) were obtained in an open-source Scape Plot Generator tool.[14] The plots represent arch-like tempo and dynamic profiles at various structural levels simultaneously. Whereas shorter flags refer to more detailed features, higher flags manifest parametric variations that shape the performance at broader formal planes. Reddish colours reflect an increase in the parameter’s variation, whereas blue colours indicate a decrease.
+Images were stored as .png files. They were subsequently merged into a diamond-shaped figures in Microsoft® Paint, the upper triangle showing tempo fluctuations and the lower one referring to dynamics.[15] Smallest measurement units were always used, and scape plots were generated without flip colour and using 3 different degrees of smoothing (0.1, 0.5 and 0.9) respectively. 
