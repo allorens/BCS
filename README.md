@@ -7,7 +7,7 @@ The scape plots files are organised, for each recording, in the form of two subf
 Those 5 file types include data of the 5 parameters which the corpus evaluates. These are:
 1.	dynamic values at specific instants (dB_per_beat), in dB
 2.	beat durations (duration), in seconds
-3.	continuous dynamic variations (smoothed_power), in dB[6]
+3.	continuous dynamic variations (smoothed_power), in dB
 4.	tempo fluctuations (tempo), in bmp (beats per minute)
 5.	beat tappings (tappings), in seconds
 
