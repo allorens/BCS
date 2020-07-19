@@ -20,5 +20,5 @@ For the note measurements, only onset (file no. 5) and duration (no. 2) measurem
 Files nos. 1-2 and 4 present the same internal structure:
 -	column 1: instant (in second) at which the measurement was taken
 -	column 2: value for each given parameter
--	column 4: instant label as bar.beat
+-	column 3: instant label as bar.beat
 Nos. 3 and 5 files follow the same structure as Nos. 1-2 and 4, yet no. 3 files (smoothed_power) lack the third column, as measurements are made on a continuous basis and not at specific beat instants, and files nos. 5 lack column 2 as its position value is contained in column 1 already.
