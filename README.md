@@ -3,7 +3,7 @@ The RBC corpus presents data extracted from 21 recordings of select movements of
 
 A first initial division is to be found among the various movements analyzed, and, subsequently, a second one between Scape Plots and Sonic Visualiser Data. In each of this folders, specific subfolders for each of the recordings are included.
 
-For each movement, scores in .musx, .mscx and PDF formats are provided, along with MIDI and .musicxml files. The MuseScore file contains all notes numbered for both the cello and the piano separately.
+For each movement, scores in .musx, .mscx and PDF formats are provided, along with MIDI and .musicxml files. The MuseScore files contain numberings for all notes in both the cello and the piano parts separately.
 
 The scape plots files are organised, for each recording, in the form of two subfolders hosting .png files for dynamics and tempo data respectively. In the master folder, merged plots are stored too. 
 
