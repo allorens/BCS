@@ -3952,7 +3952,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>225</name>
+            <name>228</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -8726,12 +8726,12 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>452</name>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Harmony>
+            <name>452</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -8805,12 +8805,12 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>456</name>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Harmony>
+            <name>456</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -8900,9 +8900,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>460</name>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -8910,6 +8907,9 @@
             <subtype>p</subtype>
             <velocity>49</velocity>
             </Dynamic>
+          <Harmony>
+            <name>460</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -16668,9 +16668,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>893</name>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -16712,6 +16709,9 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <name>893</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -40994,16 +40994,19 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>1413</name>
-            </Harmony>
           <Rest>
             <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
           <location>
-            <fractions>-3/4</fractions>
+            <fractions>-7/8</fractions>
+            </location>
+          <Harmony>
+            <name>1413</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
             </location>
           <Dynamic>
             <subtype>f</subtype>
