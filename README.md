@@ -25,6 +25,7 @@ All .txt files present the same internal structure:
 -	column 1: instant (in second) at which the measurement was taken
 -	column 2: value for each given parameter
 -	column 3: instant label as bar.beat or as note number
+
 Exceptionally, smoothed_power files lack the third column, as measurements are made on a continuous basis and not at specific beat instants; dB_per_beat files lack column 2 as its position value is contained in column 1.
 
 File names in the dataset always follow a standardized format. For data obtained on the basis of note onsets, this is: movement-recording_abbreviation-NoteParameter-instrument. For data on  the basis of beats: movement-recording_abbreviation-parameter-measurement_unit. Spaces are avoided and, when necessary, two words forming a single item are united by an underscore (_).
