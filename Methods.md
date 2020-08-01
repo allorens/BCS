@@ -3,7 +3,7 @@ After engraving the scores in Finale26 and exporting them in various formats, gr
 -	importing the desired track in Sonic Visualiser. The corresponding wave form appears on the screen (layer 2 in SV files).
 -	generating a spectrographic image (layer 3).
 -	tapping the recording while it is being played at normal – or the most convenient – speed to determine beat/note onsets. Tappings appear in the form of vertical lines that cover the whole vertical space of the wave form. Measurement units at this stage are the smallest beat possible (layer 4, in white) and notes (in the relevant files, layers 5 and 6; in bright purple for the piano and bright orange for the cello).
--	adjusting provisional tappings to the start of each tapped note as visualized in the spectrogram (Cook, 2009).
+-	adjusting provisional tappings to the start of each tapped note as visualized in the spectrogram.
 -	aurally checking the accuracy of the tappings by playing the track at a significantly slower speed and relocating the lines when necessary. For beat measurements, when asynchronies between the cello and the piano occur, tappings were adjusted according to the rhythmically most active part, normally the piano. For accurate note measurements, each instrumental part was annotated individually.
 -	renumbering the tappings to show bar and beat number within bars (they are given in the form of bar.beat annotations) or note numbers.
 -	exporting tapping data as .txt files.
