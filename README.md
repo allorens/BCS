@@ -44,4 +44,4 @@ In total, the RBC dataset contains 2725 files:
 It is expected that data from the same 21 recordings of the third and fourth movements of Brahms’s Op. 99 will be uploaded to the repository by the end of 2021. Similarly, data from further recordings will be added in the future. In the hope of creating a collaborative repository too, the RBC affords expansion to host data extracted from recordings of other compositions by Brahms. The Violin Sonatas Opp. 78, 100 and 108 are contemplated as the first step in that direction. 
 
 ## Use of the dataset ##
-All files are provided under a [Creative Commons Attribution Non-Commercial Share-Alike 4.0 (CC BY-NC-SA 4.0)] (https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+All files are provided under a [Creative Commons Attribution Non-Commercial Share-Alike 4.0 (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
