@@ -1,24 +1,26 @@
 # RBC
 The RBC corpus presents data extracted from 21 recordings of select movements of Brahms’ Cello Sonatas. For easier navigation in the corpus, the movements have been labelled according to their opus number followed by a lowercase roman numeral indicating their position within each composition.  
 
-A first initial division is to be found among the various movements analyzed, and, subsequently, a second one between Scape Plots and Sonic Visualiser Data. In each of this folders, specific subfolders for each of the recordings are included.
+In the repository, scores, scape plots and performance metadata can be found. Scores are offered in PDF, MIDI, musicXML, .musx and .mscx formats. In order to facilitate navigation, .mscx scores contain note numberings for each part (piano or cello) separately. Metadata for each recording are organized by measurement unit:
+1. Op. 38i: note/ crotchet beat / minim beat / bar
+2. Op. 38ii: note / quaver beat / crotchet beat / bar
+3. Op. 38iii: note / crotchet beat / minim beat / bar 
+4. Op. 99i: note / crotchet beat / bar
+5. Op. 99ii: note / semiquaver beat / quaver beat / crotchet beat / bar 
 
-For each movement, scores in .musx, .mscx and PDF formats are provided, along with MIDI and .musicxml files. The MuseScore files contain numberings for all notes in both the cello and the piano parts separately.
+In each of the metadata folders, the corresponding Sonic Visualiser file is provided, along with .txt files for the 5 parameters which the corpus evaluates:
 
-The scape plots files are organised, for each recording, in the form of two subfolders hosting .png files for dynamics and tempo data respectively. In the master folder, merged plots are stored too. 
 
-Sonic Visualiser Data for each recording are organized by measurement unit, from the bar to precise note onsets in the cello and the piano parts. In each of these folders, the corresponding Sonic Visualiser file is provided, along with several.txt files in a ‘Data’ subfolder.
-Those 5 file types include data of the 5 parameters which the corpus evaluates. These are:
-1.	dynamic values at specific instants (dB_per_beat), in dB
-2.	beat durations (duration), in seconds
-3.	continuous dynamic variations (smoothed_power), in dB
-4.	tempo fluctuations (tempo), in bmp (beats per minute)
-5.	beat tappings (tappings), in seconds
-
-For the note measurements, only onset (file no. 5) and duration (no. 2) measurements are provided, for both the cello and the piano parts.
-
-Files nos. 1-2 and 4 present the same internal structure:
+All .txt files present the same internal structure:
 -	column 1: instant (in second) at which the measurement was taken
 -	column 2: value for each given parameter
--	column 3: instant label as bar.beat
-Nos. 3 and 5 files follow the same structure as Nos. 1-2 and 4, yet no. 3 files (smoothed_power) lack the third column, as measurements are made on a continuous basis and not at specific beat instants, and files nos. 5 lack column 2 as its position value is contained in column 1 already.
+-	column 3: instant label as bar.beat or as note number
+Exceptionally, smoothed_power files lack the third column, as measurements are made on a continuous basis and not at specific beat instants; dB_per_beat files lack column 2 as its position value is contained in column 1.
+
+File names in the dataset always follow a standardized format. For data obtained on the basis of note onsets, this is: movement-recording_abbreviation-NoteParameter-instrument. For data on  the basis of beats: movement-recording_abbreviation-parameter-measurement_unit. Spaces are avoided and, when necessary, two words forming a single item are united by an underscore (_).
+
+In total, the RBC dataset contains 2725 files:
+
+
+# Use of the dataset
+All files are provided under a Creative Commons Attribution Non-Commercial Share-Alike 4.0 (CC BY-NC-SA 4.0) license.[16]
