@@ -180,7 +180,10 @@
         <instrument-name>ARIA Player</instrument-name>
         <instrument-sound>strings.cello</instrument-sound>
         <solo/>
-        <virtual-instrument/>
+        <virtual-instrument>
+          <virtual-library>Garritan Instruments for Finale</virtual-library>
+          <virtual-name>007. Solo Strings/3. Cello/Cello Solo KS</virtual-name>
+        </virtual-instrument>
       </score-instrument>
       <midi-device>ARIA Player</midi-device>
       <midi-instrument id="P1-I1">
@@ -195,7 +198,10 @@
       <score-instrument id="P2-I2">
         <instrument-name>ARIA Player</instrument-name>
         <instrument-sound>keyboard.piano</instrument-sound>
-        <virtual-instrument/>
+        <virtual-instrument>
+          <virtual-library>Garritan Instruments for Finale</virtual-library>
+          <virtual-name>005. Keyboards/Steinway Piano</virtual-name>
+        </virtual-instrument>
       </score-instrument>
       <midi-device>ARIA Player</midi-device>
       <midi-instrument id="P2-I2">
@@ -16097,7 +16103,7 @@
       </note>
     </measure>
     <!--=======================================================-->
-    <measure number="153" width="484">
+    <measure number="153" width="478">
       <print new-system="yes">
         <system-layout>
           <system-distance>114</system-distance>
@@ -16118,7 +16124,7 @@
           <tied type="stop"/>
         </notations>
       </note>
-      <note default-x="407">
+      <note default-x="401">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -16135,7 +16141,7 @@
       </note>
     </measure>
     <!--=======================================================-->
-    <measure number="154" width="389">
+    <measure number="154" width="392">
       <note default-x="16">
         <pitch>
           <step>C</step>
@@ -16149,13 +16155,13 @@
       </note>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="316" default-y="-73" halign="center">
+          <dynamics default-x="318" default-y="-73" halign="center">
             <ff/>
           </dynamics>
         </direction-type>
         <sound dynamics="112"/>
       </direction>
-      <note default-x="316">
+      <note default-x="318">
         <pitch>
           <step>B</step>
           <alter>-1</alter>
@@ -16174,7 +16180,7 @@
       </note>
     </measure>
     <!--=======================================================-->
-    <measure number="155" width="353">
+    <measure number="155" width="356">
       <note default-x="25">
         <pitch>
           <step>B</step>
@@ -16192,7 +16198,7 @@
           </articulations>
         </notations>
       </note>
-      <note default-x="120">
+      <note default-x="121">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -16207,7 +16213,7 @@
           </articulations>
         </notations>
       </note>
-      <note default-x="188">
+      <note default-x="190">
         <pitch>
           <step>A</step>
           <octave>2</octave>
@@ -16218,11 +16224,11 @@
         <stem default-y="0.5">up</stem>
         <notations>
           <articulations>
-            <staccato default-x="4" default-y="-48" placement="below"/>
+            <staccato default-x="3" default-y="-48" placement="below"/>
           </articulations>
         </notations>
       </note>
-      <note default-x="283">
+      <note default-x="286">
         <pitch>
           <step>F</step>
           <octave>3</octave>
@@ -16234,7 +16240,7 @@
         <stem default-y="-45">down</stem>
         <notations>
           <articulations>
-            <staccato default-x="4" default-y="4" placement="above"/>
+            <staccato default-x="3" default-y="4" placement="above"/>
           </articulations>
         </notations>
       </note>
@@ -30217,6 +30223,12 @@
           <tied type="start"/>
         </notations>
       </note>
+      <direction>
+        <direction-type>
+          <octave-shift size="8" type="stop"/>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
       <note default-x="166">
         <pitch>
           <step>D</step>
@@ -30260,12 +30272,6 @@
           <tied type="stop"/>
         </notations>
       </note>
-      <direction>
-        <direction-type>
-          <octave-shift size="8" type="stop"/>
-        </direction-type>
-        <staff>1</staff>
-      </direction>
       <note default-x="190">
         <pitch>
           <step>A</step>
@@ -73259,7 +73265,7 @@
       </note>
     </measure>
     <!--=======================================================-->
-    <measure number="153" width="484">
+    <measure number="153" width="478">
       <print new-system="yes"/>
       <note default-x="85">
         <pitch>
@@ -73322,7 +73328,7 @@
           <tied type="stop"/>
         </notations>
       </note>
-      <note default-x="121">
+      <note default-x="120">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -73340,7 +73346,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note default-x="121">
+      <note default-x="120">
         <chord/>
         <pitch>
           <step>A</step>
@@ -73356,7 +73362,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <note default-x="157">
+      <note default-x="155">
         <pitch>
           <step>G</step>
           <octave>5</octave>
@@ -73375,7 +73381,7 @@
           <tuplet number="1" type="stop"/>
         </notations>
       </note>
-      <note default-x="157">
+      <note default-x="155">
         <chord/>
         <pitch>
           <step>B</step>
@@ -73393,7 +73399,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <note default-x="193">
+      <note default-x="191">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -73413,7 +73419,7 @@
           <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
-      <note default-x="193">
+      <note default-x="191">
         <chord/>
         <pitch>
           <step>A</step>
@@ -73429,7 +73435,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <note default-x="228">
+      <note default-x="226">
         <pitch>
           <step>G</step>
           <octave>5</octave>
@@ -73445,7 +73451,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note default-x="228">
+      <note default-x="226">
         <chord/>
         <pitch>
           <step>B</step>
@@ -73462,7 +73468,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <note default-x="263">
+      <note default-x="261">
         <pitch>
           <step>A</step>
           <octave>5</octave>
@@ -73481,7 +73487,7 @@
           <tuplet number="1" type="stop"/>
         </notations>
       </note>
-      <note default-x="263">
+      <note default-x="261">
         <chord/>
         <pitch>
           <step>C</step>
@@ -73497,7 +73503,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <note default-x="299">
+      <note default-x="296">
         <pitch>
           <step>G</step>
           <octave>5</octave>
@@ -73516,7 +73522,7 @@
           <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
-      <note default-x="299">
+      <note default-x="296">
         <chord/>
         <pitch>
           <step>B</step>
@@ -73533,7 +73539,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <note default-x="335">
+      <note default-x="331">
         <pitch>
           <step>A</step>
           <octave>5</octave>
@@ -73549,7 +73555,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note default-x="335">
+      <note default-x="331">
         <chord/>
         <pitch>
           <step>C</step>
@@ -73565,7 +73571,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <note default-x="371">
+      <note default-x="366">
         <pitch>
           <step>B</step>
           <alter>-1</alter>
@@ -73585,7 +73591,7 @@
           <tuplet number="1" type="stop"/>
         </notations>
       </note>
-      <note default-x="371">
+      <note default-x="366">
         <chord/>
         <pitch>
           <step>D</step>
@@ -73601,7 +73607,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <note default-x="407">
+      <note default-x="401">
         <pitch>
           <step>E</step>
           <octave>5</octave>
@@ -73616,7 +73622,7 @@
           <tied type="start"/>
         </notations>
       </note>
-      <note default-x="407">
+      <note default-x="401">
         <chord/>
         <pitch>
           <step>G</step>
@@ -73696,7 +73702,7 @@
           <tied type="stop"/>
         </notations>
       </note>
-      <note default-x="121">
+      <note default-x="120">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -73714,7 +73720,23 @@
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note default-x="157">
+      <note default-x="120">
+        <chord/>
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>342</duration>
+        <voice>4</voice>
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <stem>down</stem>
+        <staff>2</staff>
+      </note>
+      <note default-x="155">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -73733,7 +73755,25 @@
           <tuplet number="1" type="stop"/>
         </notations>
       </note>
-      <note default-x="193">
+      <note default-x="155">
+        <chord/>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>341</duration>
+        <voice>4</voice>
+        <type>eighth</type>
+        <accidental>flat</accidental>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <stem>down</stem>
+        <staff>2</staff>
+      </note>
+      <note default-x="191">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -73753,7 +73793,7 @@
           <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
-      <note default-x="193">
+      <note default-x="191">
         <chord/>
         <pitch>
           <step>A</step>
@@ -73769,7 +73809,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <note default-x="228">
+      <note default-x="226">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -73785,7 +73825,7 @@
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note default-x="228">
+      <note default-x="226">
         <chord/>
         <pitch>
           <step>B</step>
@@ -73795,7 +73835,6 @@
         <duration>342</duration>
         <voice>4</voice>
         <type>eighth</type>
-        <accidental>flat</accidental>
         <time-modification>
           <actual-notes>3</actual-notes>
           <normal-notes>2</normal-notes>
@@ -73803,7 +73842,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <note default-x="263">
+      <note default-x="261">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -73822,7 +73861,7 @@
           <tuplet number="1" type="stop"/>
         </notations>
       </note>
-      <note default-x="263">
+      <note default-x="261">
         <chord/>
         <pitch>
           <step>C</step>
@@ -73838,7 +73877,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <note default-x="299">
+      <note default-x="296">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -73857,7 +73896,7 @@
           <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
-      <note default-x="299">
+      <note default-x="296">
         <chord/>
         <pitch>
           <step>B</step>
@@ -73874,7 +73913,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <note default-x="335">
+      <note default-x="331">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -73890,7 +73929,7 @@
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note default-x="335">
+      <note default-x="331">
         <chord/>
         <pitch>
           <step>C</step>
@@ -73906,7 +73945,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <note default-x="371">
+      <note default-x="366">
         <pitch>
           <step>B</step>
           <alter>-1</alter>
@@ -73926,7 +73965,7 @@
           <tuplet number="1" type="stop"/>
         </notations>
       </note>
-      <note default-x="371">
+      <note default-x="366">
         <chord/>
         <pitch>
           <step>D</step>
@@ -73942,7 +73981,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <note default-x="407">
+      <note default-x="401">
         <pitch>
           <step>E</step>
           <octave>3</octave>
@@ -73957,7 +73996,7 @@
           <tied type="start"/>
         </notations>
       </note>
-      <note default-x="407">
+      <note default-x="401">
         <chord/>
         <pitch>
           <step>G</step>
@@ -73975,7 +74014,7 @@
       </note>
     </measure>
     <!--=======================================================-->
-    <measure number="154" width="389">
+    <measure number="154" width="392">
       <note default-x="16">
         <pitch>
           <step>E</step>
@@ -74017,7 +74056,7 @@
           <tied type="stop"/>
         </notations>
       </note>
-      <note default-x="49">
+      <note default-x="50">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -74034,7 +74073,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note default-x="49">
+      <note default-x="50">
         <chord/>
         <pitch>
           <step>A</step>
@@ -74050,7 +74089,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <note default-x="82">
+      <note default-x="83">
         <pitch>
           <step>G</step>
           <octave>5</octave>
@@ -74069,7 +74108,7 @@
           <tuplet number="1" type="stop"/>
         </notations>
       </note>
-      <note default-x="82">
+      <note default-x="83">
         <chord/>
         <pitch>
           <step>B</step>
@@ -74087,7 +74126,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <note default-x="116">
+      <note default-x="117">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -74107,7 +74146,7 @@
           <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
-      <note default-x="116">
+      <note default-x="117">
         <chord/>
         <pitch>
           <step>A</step>
@@ -74123,7 +74162,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <note default-x="149">
+      <note default-x="150">
         <pitch>
           <step>G</step>
           <octave>5</octave>
@@ -74139,7 +74178,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note default-x="149">
+      <note default-x="150">
         <chord/>
         <pitch>
           <step>B</step>
@@ -74156,7 +74195,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <note default-x="182">
+      <note default-x="184">
         <pitch>
           <step>A</step>
           <octave>5</octave>
@@ -74175,7 +74214,7 @@
           <tuplet number="1" type="stop"/>
         </notations>
       </note>
-      <note default-x="182">
+      <note default-x="184">
         <chord/>
         <pitch>
           <step>C</step>
@@ -74191,7 +74230,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <note default-x="216">
+      <note default-x="218">
         <pitch>
           <step>G</step>
           <octave>5</octave>
@@ -74210,7 +74249,7 @@
           <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
-      <note default-x="216">
+      <note default-x="218">
         <chord/>
         <pitch>
           <step>B</step>
@@ -74227,7 +74266,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <note default-x="249">
+      <note default-x="251">
         <pitch>
           <step>A</step>
           <octave>5</octave>
@@ -74243,7 +74282,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note default-x="249">
+      <note default-x="251">
         <chord/>
         <pitch>
           <step>C</step>
@@ -74259,7 +74298,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <note default-x="282">
+      <note default-x="285">
         <pitch>
           <step>B</step>
           <alter>-1</alter>
@@ -74279,7 +74318,7 @@
           <tuplet number="1" type="stop"/>
         </notations>
       </note>
-      <note default-x="282">
+      <note default-x="285">
         <chord/>
         <pitch>
           <step>D</step>
@@ -74295,7 +74334,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <note default-x="316">
+      <note default-x="318">
         <pitch>
           <step>C</step>
           <octave>6</octave>
@@ -74310,7 +74349,7 @@
           <tied type="start"/>
         </notations>
       </note>
-      <note default-x="316">
+      <note default-x="318">
         <chord/>
         <pitch>
           <step>E</step>
@@ -74370,7 +74409,7 @@
           <tied type="stop"/>
         </notations>
       </note>
-      <note default-x="49">
+      <note default-x="50">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -74387,7 +74426,7 @@
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note default-x="49">
+      <note default-x="50">
         <chord/>
         <pitch>
           <step>A</step>
@@ -74403,7 +74442,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <note default-x="82">
+      <note default-x="83">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -74422,7 +74461,7 @@
           <tuplet number="1" type="stop"/>
         </notations>
       </note>
-      <note default-x="82">
+      <note default-x="83">
         <chord/>
         <pitch>
           <step>B</step>
@@ -74440,7 +74479,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <note default-x="116">
+      <note default-x="117">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -74460,7 +74499,7 @@
           <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
-      <note default-x="116">
+      <note default-x="117">
         <chord/>
         <pitch>
           <step>A</step>
@@ -74476,7 +74515,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <note default-x="149">
+      <note default-x="150">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -74492,7 +74531,7 @@
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note default-x="149">
+      <note default-x="150">
         <chord/>
         <pitch>
           <step>B</step>
@@ -74509,7 +74548,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <note default-x="182">
+      <note default-x="184">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -74528,7 +74567,7 @@
           <tuplet number="1" type="stop"/>
         </notations>
       </note>
-      <note default-x="182">
+      <note default-x="184">
         <chord/>
         <pitch>
           <step>C</step>
@@ -74544,7 +74583,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <note default-x="216">
+      <note default-x="218">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -74563,7 +74602,7 @@
           <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
-      <note default-x="216">
+      <note default-x="218">
         <chord/>
         <pitch>
           <step>B</step>
@@ -74580,7 +74619,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <note default-x="249">
+      <note default-x="251">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -74596,7 +74635,7 @@
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note default-x="249">
+      <note default-x="251">
         <chord/>
         <pitch>
           <step>C</step>
@@ -74612,7 +74651,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <note default-x="282">
+      <note default-x="285">
         <pitch>
           <step>B</step>
           <alter>-1</alter>
@@ -74632,7 +74671,7 @@
           <tuplet number="1" type="stop"/>
         </notations>
       </note>
-      <note default-x="282">
+      <note default-x="285">
         <chord/>
         <pitch>
           <step>D</step>
@@ -74648,7 +74687,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <note default-x="316">
+      <note default-x="318">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -74663,7 +74702,7 @@
           <tied type="start"/>
         </notations>
       </note>
-      <note default-x="316">
+      <note default-x="318">
         <chord/>
         <pitch>
           <step>E</step>
@@ -74681,7 +74720,7 @@
       </note>
     </measure>
     <!--=======================================================-->
-    <measure number="155" width="353">
+    <measure number="155" width="356">
       <note default-x="25">
         <pitch>
           <step>C</step>
@@ -74723,7 +74762,7 @@
           <tied type="stop"/>
         </notations>
       </note>
-      <note default-x="56">
+      <note default-x="57">
         <pitch>
           <step>G</step>
           <octave>5</octave>
@@ -74739,7 +74778,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note default-x="88">
+      <note default-x="89">
         <pitch>
           <step>E</step>
           <octave>6</octave>
@@ -74758,7 +74797,7 @@
           <tuplet number="1" type="stop"/>
         </notations>
       </note>
-      <note default-x="120">
+      <note default-x="121">
         <pitch>
           <step>A</step>
           <octave>5</octave>
@@ -74773,7 +74812,7 @@
           <tied type="start"/>
         </notations>
       </note>
-      <note default-x="120">
+      <note default-x="121">
         <chord/>
         <pitch>
           <step>C</step>
@@ -74789,7 +74828,7 @@
           <tied type="start"/>
         </notations>
       </note>
-      <note default-x="120">
+      <note default-x="121">
         <chord/>
         <pitch>
           <step>F</step>
@@ -74806,7 +74845,7 @@
           <tied type="start"/>
         </notations>
       </note>
-      <note default-x="188">
+      <note default-x="190">
         <pitch>
           <step>A</step>
           <octave>5</octave>
@@ -74827,7 +74866,7 @@
           <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
-      <note default-x="188">
+      <note default-x="190">
         <chord/>
         <pitch>
           <step>C</step>
@@ -74847,7 +74886,7 @@
           <tied type="stop"/>
         </notations>
       </note>
-      <note default-x="188">
+      <note default-x="190">
         <chord/>
         <pitch>
           <step>F</step>
@@ -74867,7 +74906,7 @@
           <tied type="stop"/>
         </notations>
       </note>
-      <note default-x="220">
+      <note default-x="222">
         <pitch>
           <step>A</step>
           <octave>5</octave>
@@ -74882,8 +74921,11 @@
         <stem default-y="-25">down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
+        <notations>
+          <slur number="1" placement="above" type="start"/>
+        </notations>
       </note>
-      <note default-x="252">
+      <note default-x="254">
         <pitch>
           <step>F</step>
           <octave>6</octave>
@@ -74908,7 +74950,7 @@
         </direction-type>
         <staff>1</staff>
       </direction>
-      <note default-x="283">
+      <note default-x="286">
         <pitch>
           <step>C</step>
           <octave>6</octave>
@@ -74923,7 +74965,7 @@
           <tied type="start"/>
         </notations>
       </note>
-      <note default-x="283">
+      <note default-x="286">
         <chord/>
         <pitch>
           <step>A</step>
@@ -74983,7 +75025,7 @@
           <tied type="stop"/>
         </notations>
       </note>
-      <note default-x="56">
+      <note default-x="57">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -74999,7 +75041,7 @@
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note default-x="88">
+      <note default-x="89">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -75018,7 +75060,7 @@
           <tuplet number="1" type="stop"/>
         </notations>
       </note>
-      <note default-x="120">
+      <note default-x="121">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -75033,7 +75075,7 @@
           <tied type="start"/>
         </notations>
       </note>
-      <note default-x="120">
+      <note default-x="121">
         <chord/>
         <pitch>
           <step>C</step>
@@ -75049,7 +75091,7 @@
           <tied type="start"/>
         </notations>
       </note>
-      <note default-x="120">
+      <note default-x="121">
         <chord/>
         <pitch>
           <step>F</step>
@@ -75066,7 +75108,7 @@
           <tied type="start"/>
         </notations>
       </note>
-      <note default-x="188">
+      <note default-x="190">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -75087,7 +75129,7 @@
           <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
-      <note default-x="188">
+      <note default-x="190">
         <chord/>
         <pitch>
           <step>C</step>
@@ -75107,7 +75149,7 @@
           <tied type="stop"/>
         </notations>
       </note>
-      <note default-x="188">
+      <note default-x="190">
         <chord/>
         <pitch>
           <step>F</step>
@@ -75127,7 +75169,7 @@
           <tied type="stop"/>
         </notations>
       </note>
-      <note default-x="220">
+      <note default-x="222">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -75142,8 +75184,11 @@
         <stem default-y="-35">down</stem>
         <staff>2</staff>
         <beam number="1">continue</beam>
+        <notations>
+          <slur number="2" placement="above" type="start"/>
+        </notations>
       </note>
-      <note default-x="252">
+      <note default-x="254">
         <pitch>
           <step>F</step>
           <octave>4</octave>
@@ -75162,7 +75207,7 @@
           <tuplet number="1" type="stop"/>
         </notations>
       </note>
-      <note default-x="283">
+      <note default-x="286">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -75177,7 +75222,7 @@
           <tied type="start"/>
         </notations>
       </note>
-      <note default-x="283">
+      <note default-x="286">
         <chord/>
         <pitch>
           <step>A</step>
@@ -75220,6 +75265,7 @@
         <notations>
           <tied type="stop"/>
           <tuplet bracket="no" number="1" show-number="none" type="start"/>
+          <slur number="1" type="stop"/>
         </notations>
       </note>
       <note default-x="91">
@@ -75315,6 +75361,12 @@
           <tied type="start"/>
         </notations>
       </note>
+      <direction>
+        <direction-type>
+          <octave-shift default-y="62" relative-x="12" size="8" type="stop"/>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
       <note default-x="272">
         <pitch>
           <step>D</step>
@@ -75358,12 +75410,6 @@
           <tied type="stop"/>
         </notations>
       </note>
-      <direction>
-        <direction-type>
-          <octave-shift default-y="62" relative-x="-13" size="8" type="stop"/>
-        </direction-type>
-        <staff>1</staff>
-      </direction>
       <note default-x="307">
         <pitch>
           <step>A</step>
@@ -75457,6 +75503,7 @@
         <notations>
           <tied type="stop"/>
           <tuplet bracket="no" number="1" show-number="none" type="start"/>
+          <slur number="2" type="stop"/>
         </notations>
       </note>
       <note default-x="91">
@@ -75494,6 +75541,9 @@
         <stem default-y="-32">down</stem>
         <staff>2</staff>
         <beam number="1">continue</beam>
+        <notations>
+          <slur number="2" placement="above" type="start"/>
+        </notations>
       </note>
       <note default-x="161">
         <pitch>
@@ -75512,6 +75562,7 @@
         <beam number="1">end</beam>
         <notations>
           <tuplet number="1" type="stop"/>
+          <slur number="2" type="stop"/>
         </notations>
       </note>
       <note default-x="196">
@@ -75674,6 +75725,9 @@
         <stem default-y="-40">down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
+        <notations>
+          <slur number="2" placement="above" type="start"/>
+        </notations>
       </note>
       <note default-x="343">
         <pitch>
@@ -75710,6 +75764,7 @@
         <staff>2</staff>
         <notations>
           <tied orientation="over" type="start"/>
+          <slur number="2" type="stop"/>
         </notations>
       </note>
       <note default-x="377">
@@ -79258,6 +79313,7 @@
         <stem default-y="14">up</stem>
         <staff>1</staff>
         <notations>
+          <slur number="1" placement="above" type="start"/>
           <articulations>
             <accent default-x="-2" default-y="18" placement="above"/>
           </articulations>
@@ -79285,6 +79341,9 @@
         <type>eighth</type>
         <stem default-y="15.5">up</stem>
         <staff>1</staff>
+        <notations>
+          <slur number="1" type="stop"/>
+        </notations>
       </note>
       <note default-x="177">
         <chord/>
@@ -79516,6 +79575,7 @@
         <stem default-y="10.5">up</stem>
         <staff>2</staff>
         <notations>
+          <slur number="1" placement="above" type="start"/>
           <articulations>
             <accent default-x="-2" default-y="14" placement="above"/>
           </articulations>
@@ -79543,6 +79603,9 @@
         <type>eighth</type>
         <stem default-y="5">up</stem>
         <staff>2</staff>
+        <notations>
+          <slur number="1" type="stop"/>
+        </notations>
       </note>
       <note default-x="177">
         <chord/>
@@ -79739,6 +79802,9 @@
         <type>quarter</type>
         <stem default-y="14">up</stem>
         <staff>1</staff>
+        <notations>
+          <slur number="1" placement="above" type="start"/>
+        </notations>
       </note>
       <note default-x="16">
         <chord/>
@@ -79762,6 +79828,9 @@
         <type>eighth</type>
         <stem default-y="15.5">up</stem>
         <staff>1</staff>
+        <notations>
+          <slur number="1" type="stop"/>
+        </notations>
       </note>
       <note default-x="108">
         <chord/>
@@ -79795,6 +79864,9 @@
         <type>quarter</type>
         <stem default-y="14">up</stem>
         <staff>1</staff>
+        <notations>
+          <slur number="1" placement="above" type="start"/>
+        </notations>
       </note>
       <note default-x="200">
         <chord/>
@@ -79818,6 +79890,9 @@
         <type>eighth</type>
         <stem default-y="15.5">up</stem>
         <staff>1</staff>
+        <notations>
+          <slur number="1" type="stop"/>
+        </notations>
       </note>
       <note default-x="292">
         <chord/>
@@ -80007,6 +80082,9 @@
         <type>quarter</type>
         <stem default-y="10.5">up</stem>
         <staff>2</staff>
+        <notations>
+          <slur number="1" placement="above" type="start"/>
+        </notations>
       </note>
       <note default-x="16">
         <chord/>
@@ -80030,6 +80108,9 @@
         <type>eighth</type>
         <stem default-y="5">up</stem>
         <staff>2</staff>
+        <notations>
+          <slur number="1" type="stop"/>
+        </notations>
       </note>
       <note default-x="108">
         <chord/>
@@ -80063,6 +80144,9 @@
         <type>quarter</type>
         <stem default-y="10.5">up</stem>
         <staff>2</staff>
+        <notations>
+          <slur number="1" placement="above" type="start"/>
+        </notations>
       </note>
       <note default-x="200">
         <chord/>
@@ -80086,6 +80170,9 @@
         <type>eighth</type>
         <stem default-y="5">up</stem>
         <staff>2</staff>
+        <notations>
+          <slur number="1" type="stop"/>
+        </notations>
       </note>
       <note default-x="292">
         <chord/>
