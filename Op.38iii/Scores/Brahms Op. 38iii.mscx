@@ -44228,10 +44228,12 @@
             <text><font size="9.6"></font>poco ritard.</text>
             </StaffText>
           <Tuplet>
+            <visible>0</visible>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <visible>0</visible>
               <style>Tuplet</style>
               <text>3</text>
               </Number>
@@ -71185,7 +71187,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>1751</name>
+            <name>1747</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>

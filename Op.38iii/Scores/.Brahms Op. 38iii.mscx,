@@ -27513,7 +27513,6 @@
                 <subtype>0</subtype>
                 <offset x="-0.693844" y="6.43977"/>
                 <off2 x="-48.5691" y="0"/>
-                <offset x="-0.693844" y="6.43977"/>
                 </Segment>
               </HairPin>
             <next>
@@ -55416,7 +55415,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>513</name>
+            <name>515</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
