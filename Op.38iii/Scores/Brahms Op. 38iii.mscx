@@ -7432,7 +7432,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>432</name>
+            <name>433</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -7522,7 +7522,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>438</name>
+            <name>439</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -7630,14 +7630,11 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
-          <Harmony>
-            <name>44</name>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
-            <name>454</name>
+            <name>455</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7714,7 +7711,7 @@
             <velocity>49</velocity>
             </Dynamic>
           <Harmony>
-            <name>449</name>
+            <name>450</name>
             <offset x="-0.231281" y="-3.42512"/>
             </Harmony>
           <Tuplet>
@@ -7843,7 +7840,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>458</name>
+            <name>459</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -7965,7 +7962,7 @@
             <transposingClefType>F</transposingClefType>
             </Clef>
           <Harmony>
-            <name>467</name>
+            <name>468</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -8086,7 +8083,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>476</name>
+            <name>477</name>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
@@ -8126,7 +8123,7 @@
             <velocity>96</velocity>
             </Dynamic>
           <Harmony>
-            <name>478</name>
+            <name>479</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -8168,7 +8165,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>480</name>
+            <name>481</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8195,7 +8192,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>482</name>
+            <name>483</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8261,7 +8258,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>485</name>
+            <name>486</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -8293,7 +8290,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>487</name>
+            <name>488</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8336,7 +8333,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>490</name>
+            <name>491</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8370,7 +8367,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>493</name>
+            <name>494</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8411,7 +8408,7 @@
             <velocity>88</velocity>
             </Dynamic>
           <Harmony>
-            <name>496</name>
+            <name>497</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -8508,7 +8505,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>504</name>
+            <name>505</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -8596,7 +8593,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>512</name>
+            <name>513</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -8684,7 +8681,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>520</name>
+            <name>521</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -8775,7 +8772,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>528</name>
+            <name>529</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8824,7 +8821,7 @@
             <velocity>96</velocity>
             </Dynamic>
           <Harmony>
-            <name>529</name>
+            <name>530</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -8970,7 +8967,7 @@
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
-            <name>535</name>
+            <name>536</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -9109,7 +9106,7 @@
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
-            <name>540</name>
+            <name>541</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -9238,7 +9235,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>547</name>
+            <name>548</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -9386,7 +9383,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>555</name>
+            <name>556</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -9431,7 +9428,7 @@
             <velocity>88</velocity>
             </Dynamic>
           <Harmony>
-            <name>556</name>
+            <name>557</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -9545,7 +9542,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>563</name>
+            <name>564</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -9662,7 +9659,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>570</name>
+            <name>571</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -9790,7 +9787,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>575</name>
+            <name>576</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -9910,7 +9907,7 @@
             <velocity>96</velocity>
             </Dynamic>
           <Harmony>
-            <name>582</name>
+            <name>583</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -10050,7 +10047,7 @@
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
-            <name>588</name>
+            <name>589</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -10182,7 +10179,7 @@
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
-            <name>593</name>
+            <name>594</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -10308,7 +10305,7 @@
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
-            <name>598</name>
+            <name>599</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -10443,7 +10440,7 @@
             <text><i>cresc.</i></text>
             </StaffText>
           <Harmony>
-            <name>603</name>
+            <name>604</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -10535,7 +10532,7 @@
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
-            <name>608</name>
+            <name>609</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -10639,7 +10636,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>643</name>
+            <name>644</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -10712,7 +10709,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>617</name>
+            <name>618</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -10790,7 +10787,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>621</name>
+            <name>622</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -10868,7 +10865,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>625</name>
+            <name>626</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -10954,7 +10951,7 @@
             <velocity>88</velocity>
             </Dynamic>
           <Harmony>
-            <name>629</name>
+            <name>630</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -11075,7 +11072,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>636</name>
+            <name>637</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -11214,7 +11211,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>645</name>
+            <name>646</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -11353,7 +11350,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>654</name>
+            <name>655</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -11510,7 +11507,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>666</name>
+            <name>667</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -11643,7 +11640,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>674</name>
+            <name>675</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -11782,7 +11779,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>683</name>
+            <name>684</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -11921,7 +11918,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>692</name>
+            <name>693</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -12078,7 +12075,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>704</name>
+            <name>705</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -12148,7 +12145,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>708</name>
+            <name>709</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -12245,7 +12242,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>714</name>
+            <name>715</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -12286,8 +12283,9 @@
               </Note>
             </Chord>
           <StaffText>
-            <minDistance>0.118253</minDistance>
-            <offset x="-0.382283" y="1.76922"/>
+            <placement>below</placement>
+            <minDistance>-999</minDistance>
+            <offset x="-0.382283" y="1.80926"/>
             <text><i>dolce</i></text>
             </StaffText>
           <Chord>
@@ -12345,7 +12343,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>719</name>
+            <name>720</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -12407,7 +12405,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>723</name>
+            <name>724</name>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
@@ -12517,7 +12515,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>728</name>
+            <name>729</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -12649,7 +12647,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>734</name>
+            <name>735</name>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
@@ -12759,7 +12757,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>739</name>
+            <name>740</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -12875,7 +12873,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>744</name>
+            <name>745</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -12966,7 +12964,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>749</name>
+            <name>750</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -13079,7 +13077,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>755</name>
+            <name>756</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -13189,7 +13187,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>762</name>
+            <name>763</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -13297,7 +13295,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>768</name>
+            <name>769</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -13413,7 +13411,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>776</name>
+            <name>777</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -13508,7 +13506,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>782</name>
+            <name>783</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -13612,7 +13610,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>789</name>
+            <name>790</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -13720,7 +13718,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>795</name>
+            <name>796</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -13840,7 +13838,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>803</name>
+            <name>804</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -13917,7 +13915,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>809</name>
+            <name>810</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -14077,7 +14075,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>821</name>
+            <name>822</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -14155,7 +14153,7 @@
             <velocity>88</velocity>
             </Dynamic>
           <Harmony>
-            <name>827</name>
+            <name>828</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -14264,7 +14262,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>833</name>
+            <name>834</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -14382,7 +14380,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>839</name>
+            <name>840</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -14533,7 +14531,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>847</name>
+            <name>848</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -14635,7 +14633,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>853</name>
+            <name>854</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -14729,7 +14727,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>859</name>
+            <name>860</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -14839,7 +14837,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>866</name>
+            <name>867</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -14958,7 +14956,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>873</name>
+            <name>874</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -15075,7 +15073,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>880</name>
+            <name>881</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -15180,7 +15178,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>888</name>
+            <name>889</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -15286,7 +15284,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>894</name>
+            <name>895</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15304,7 +15302,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>895</name>
+            <name>896</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -15338,7 +15336,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>897</name>
+            <name>898</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15395,7 +15393,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>901</name>
+            <name>902</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15453,7 +15451,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>905</name>
+            <name>906</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -15544,7 +15542,7 @@
             <velocity>101</velocity>
             </Dynamic>
           <Harmony>
-            <name>912</name>
+            <name>913</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15661,7 +15659,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>919</name>
+            <name>920</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -15800,7 +15798,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>928</name>
+            <name>929</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -15895,7 +15893,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>936</name>
+            <name>937</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -16003,7 +16001,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>944</name>
+            <name>945</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16120,7 +16118,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>951</name>
+            <name>952</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -16259,7 +16257,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>960</name>
+            <name>961</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -16374,7 +16372,7 @@
             <velocity>49</velocity>
             </Dynamic>
           <Harmony>
-            <name>967</name>
+            <name>968</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16428,7 +16426,7 @@
             <velocity>88</velocity>
             </Dynamic>
           <Harmony>
-            <name>971</name>
+            <name>972</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -16462,7 +16460,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>973</name>
+            <name>974</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -16497,7 +16495,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>975</name>
+            <name>976</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -16527,7 +16525,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>977</name>
+            <name>978</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -16600,7 +16598,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>979</name>
+            <name>980</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16658,7 +16656,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>982</name>
+            <name>983</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -16700,7 +16698,7 @@
             <text><i>dim.</i></text>
             </StaffText>
           <Harmony>
-            <name>984</name>
+            <name>985</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -16745,7 +16743,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>986</name>
+            <name>987</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -16803,7 +16801,7 @@
             <text><font size="9.6"></font>poco ritard.</text>
             </StaffText>
           <Harmony>
-            <name>988</name>
+            <name>989</name>
             <offset x="0" y="-3.65641"/>
             </Harmony>
           <Chord>
@@ -16869,7 +16867,7 @@
             <velocity>49</velocity>
             </Dynamic>
           <Harmony>
-            <name>990</name>
+            <name>991</name>
             <offset x="0.462562" y="-4.58153"/>
             </Harmony>
           <Spanner type="TextLine">
@@ -17029,7 +17027,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>1002</name>
+            <name>1003</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -17194,7 +17192,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>1014</name>
+            <name>1015</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -17338,7 +17336,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>1020</name>
+            <name>1021</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -17492,7 +17490,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>1027</name>
+            <name>1028</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -17564,7 +17562,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>1032</name>
+            <name>1033</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -17677,7 +17675,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>1038</name>
+            <name>1039</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -17839,7 +17837,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>1046</name>
+            <name>1047</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -17977,7 +17975,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>1053</name>
+            <name>1054</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -18118,7 +18116,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>1060</name>
+            <name>1061</name>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
@@ -18248,7 +18246,7 @@
             <text><i>cresc.</i></text>
             </StaffText>
           <Harmony>
-            <name>1067</name>
+            <name>1068</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -18275,7 +18273,7 @@
             <transposingClefType>F</transposingClefType>
             </Clef>
           <Harmony>
-            <name>1069</name>
+            <name>1070</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -18321,7 +18319,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>1072</name>
+            <name>1073</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -18391,7 +18389,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>1076</name>
+            <name>1077</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -18418,7 +18416,7 @@
             <velocity>101</velocity>
             </Dynamic>
           <Harmony>
-            <name>1078</name>
+            <name>1079</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -18524,7 +18522,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>1086</name>
+            <name>1087</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -18610,7 +18608,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>1094</name>
+            <name>1095</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -18692,7 +18690,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>1102</name>
+            <name>1103</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -18778,7 +18776,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>1110</name>
+            <name>1111</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -18933,7 +18931,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>1122</name>
+            <name>1123</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -19088,7 +19086,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>1134</name>
+            <name>1135</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -19207,7 +19205,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>1143</name>
+            <name>1144</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -19313,7 +19311,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>1151</name>
+            <name>1152</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -19356,7 +19354,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>1153</name>
+            <name>1154</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -36596,6 +36594,9 @@
               </Note>
             </Chord>
           <StaffText>
+            <placement>below</placement>
+            <minDistance>-999</minDistance>
+            <offset x="-0.191142" y="4.46041"/>
             <text><i>dolce</i></text>
             </StaffText>
           <Beam>
