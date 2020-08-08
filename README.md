@@ -37,7 +37,7 @@ The RBC corpus offeres data from the following recordings:
 | G/Gr | Sol Gabetta | Hélène Grimaud | 2012 | Deutsche Grammophon, 0289 479 0965 1 | _Duo_|
 | G/Gu | Anne Gastinel | François Frédéric Guy | 1999 | Naïve (Valois), V4817 | _Johannes Brahms: Sonates pour Violoncelle & Piano_|
 | I/H | Steven Isserlis | Stephen Hough | 2005 | Hyperion, BE114A0B | _Johannes Brahms: Cello Sonatas_|
-| M/A | Yo-Yo Ma | Emanuel Ax | Sony Classical SK 48191 | _Brahms: Sonatas for Cello & Piano Opp. 38, 99 and 108_|
+| M/A | Yo-Yo Ma | Emanuel Ax | 1991 | Sony Classical SK 48191 | _Brahms: Sonatas for Cello & Piano Opp. 38, 99 and 108_|
 | M/G | Mischa Maisky | Pavel Gililov | 1998 | Deutsche Grammophon, 0289 459 6772 1 GH | _Brahms: Die Cellosonaten – Lieder Ohne Worte_ |
 | M/L | Truls Mørk | Juhani Lagerspetz | 1998 | Virgin Classics, VC 5 45052 2 | _Brahms: Cello Sonatas – Song Transcriptions_|
 | M/P | António Meneses | Maria João Pires | 2013 | Deutsche Grammophon, 0289 479 0965 1 | _The Wigmore Hall Recital_ |
