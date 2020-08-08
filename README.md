@@ -9,7 +9,7 @@ The RBC corpus presents data extracted from 21 recordings of select movements of
 In the repository, a first initial division is to be found among the various movements analysed, and, subsequently, a second one between Scape Plots, Scores and Data. In each of this folders, specific subfolders for each of the recordings are included. Data for each recording are organised by measurement unit. In each of the folders, the corresponding Sonic Visualiser file is provided, along with .txt files (see below).
 
 
-File names in the dataset always follow a standardized format. For data obtained on the basis of note onsets, this is: movement-recording_abbreviation-NoteParameter-instrument. For data on  the basis of beats: movement-recording_abbreviation-parameter-measurement_unit. Spaces are avoided and, when necessary, two words forming a single item are united by an underscore (_).
+File names in the dataset always follow a standardised format. For data obtained on the basis of note onsets, this is: movement-recording_abbreviation-NoteParameter-instrument. For data on  the basis of beats: movement-recording_abbreviation-parameter-measurement_unit. Spaces are avoided and, when necessary, two words forming a single item are united by an underscore (_).
 
 In total, the RBC dataset contains 2725 files:
 
