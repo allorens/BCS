@@ -2,7 +2,22 @@
 
 ## The dataset ##
 
-The RBC corpus presents data extracted from 21 recordings of select movements of Brahms’ Cello Sonatas. For easier navigation in the corpus, the movements have been labelled according to their opus number followed by a lowercase roman numeral indicating their position within each composition.  
+The RBC corpus presents data extracted from 21 recordings of select movements of Brahms’ Cello Sonatas. For easier navigation in the corpus, the movements have been labelled according to their opus number followed by a lowercase roman numeral indicating their position within each composition.
+
+### The recordings ###
+
+The RBC corpus offeres data from the following recordings:
+
+| Abbreviation | Cellist | Pianist | Year | Label | Title |
+! ------------| -------| --------| ------- | ------ | ------ |
+| C/H(36) | Pau Casals | Mieczysław Horszowski | 1936 | HMV, DB 3059-62 | _Brahms: _Sonata _in _F _major _(F _Dur)_ | 
+| C/H(36) | Pau Casals | Mieczysław Horszowski | 1958 | | |
+| DP/B | Jacqueline du Pré | Daniel Barenboim | 1968 | Angel Records, S-36544 | _Brahms: _The _Two _Sonatas _for _Cello _and _Piano | 
+
+
+
+
+### The data ###  
 
 In the repository, scores, scape plots and performance metadata can be found. Scores are offered in PDF, MIDI, musicXML, .musx and .mscx formats. In order to facilitate navigation, .mscx scores contain note numberings for each part (piano or cello) separately. Metadata for each recording are organized by measurement unit:
 1. Op. 38i: note/ crotchet beat / minim beat / bar
@@ -41,8 +56,9 @@ In total, the RBC dataset contains 2725 files:
 | Op. 99ii | 5 | 3 x 15 = 45 | 14 x 15 = 210 | 9 x 15 = 135 |
 | **Total** | **25** | **330** | **1560** | **810** |
 
+
 ## Expansion of the dataset ##
 It is expected that data from the same 21 recordings of the third and fourth movements of Brahms’s Op. 99 will be uploaded to the repository by the end of 2021. Similarly, data from further recordings will be added in the future. In the hope of creating a collaborative repository too, the RBC affords expansion to host data extracted from recordings of other compositions by Brahms. The Violin Sonatas Opp. 78, 100 and 108 are contemplated as the first step in that direction. 
 
 ## Use of the dataset ##
-All files are provided under a [Creative Commons Attribution Non-Commercial Share-Alike 4.0 (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+All files are shared under a [Creative Commons Attribution Non-Commercial Share-Alike 4.0 (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
