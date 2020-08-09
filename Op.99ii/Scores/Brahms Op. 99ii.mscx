@@ -9,6 +9,7 @@
     <Style>
       <staffDistance>8</staffDistance>
       <minSystemDistance>12.1</minSystemDistance>
+      <smallStaffMag>0.6</smallStaffMag>
       <Spatium>1.4464</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -33,6 +34,7 @@
       <Staff id="1">
         <StaffType group="pitched">
           <name>stdNormal</name>
+          <mag>0.8</mag>
           </StaffType>
         </Staff>
       <trackName>Cello</trackName>
@@ -85,6 +87,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel name="arco">
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="0"/>
           <controller ctrl="7" value="101"/>
@@ -100,6 +103,7 @@
           <midiChannel>1</midiChannel>
           </Channel>
         <Channel name="tremolo">
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="44"/>
           <synti>Fluid</synti>
@@ -183,18 +187,18 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>9.6</height>
+        <height>15.3339</height>
         <Text>
           <style>Composer</style>
-          <text><font size="9.6"/>Johannes Brahms</text>
+          <text><font size="9.6"></font>Johannes Brahms</text>
           </Text>
         <Text>
           <style>Title</style>
-          <text><font size="19.2"/>Sonata for Piano and Cello No. 2, Op. 99</text>
+          <text><font size="19.2"></font>Sonata for Piano and Cello No. 2, Op. 99</text>
           </Text>
         <Text>
           <style>Subtitle</style>
-          <text><font size="14.4"/>II</text>
+          <text><font size="14.4"></font>II</text>
           </Text>
         </VBox>
       <HBox>
@@ -217,19 +221,19 @@
           <Tempo>
             <tempo>1.13333</tempo>
             <followText>1</followText>
-            <text><font size="7.7"/><b>Adagio affettuoso</b></text>
+            <text><font size="7.7"></font><b>Adagio affettuoso</b></text>
             </Tempo>
           <Tempo>
             <tempo>1.13333</tempo>
             <followText>1</followText>
-            <text><font size="13.1"/><b>Adagio affettuoso</b></text>
+            <text><font size="13.1"></font><b>Adagio affettuoso</b></text>
             </Tempo>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
             </Dynamic>
           <StaffText>
-            <offset x="-3.78715" y="-0.999396"/>
+            <offset x="-3.02972" y="-0.799517"/>
             <text>pizz.</text>
             </StaffText>
           <Harmony>
@@ -406,7 +410,7 @@
             <durationType>16th</durationType>
             </Rest>
           <StaffText>
-            <offset x="-3.12852" y="-1.05435"/>
+            <offset x="-2.50282" y="-0.84348"/>
             <text>arco</text>
             </StaffText>
           <Harmony>
@@ -486,7 +490,7 @@
             <transposingClefType>C4</transposingClefType>
             </Clef>
           <StaffText>
-            <offset x="-0.398474" y="1.9061"/>
+            <offset x="-0.318779" y="1.52488"/>
             <text><i>espress.</i></text>
             </StaffText>
           <Harmony>
@@ -568,7 +572,7 @@
               <subtype>0</subtype>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="1.70687"/>
+                <offset x="0" y="1.3655"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
@@ -629,7 +633,7 @@
               <subtype>1</subtype>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-0.199237" y="1.9061"/>
+                <offset x="-0.15939" y="1.52488"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
@@ -673,7 +677,7 @@
           </LayoutBreak>
         <voice>
           <StaffText>
-            <offset x="0" y="2.10534"/>
+            <offset x="0" y="1.68427"/>
             <text><i>cresc.</i></text>
             </StaffText>
           <Harmony>
@@ -2488,13 +2492,13 @@
               </prev>
             </Spanner>
           <Rest>
-            <offset x="-0.493976" y="-1.0241"/>
+            <offset x="-0.395181" y="-0.81928"/>
             <durationType>16th</durationType>
             </Rest>
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="-1.89084"/>
+            <offset x="0" y="-1.51267"/>
             <durationType>eighth</durationType>
             </Rest>
           <Beam>
@@ -3903,12 +3907,12 @@
             </Dynamic>
           <StaffText>
             <minDistance>-4.43976</minDistance>
-            <offset x="-0.987952" y="-2.48132"/>
+            <offset x="-0.790362" y="-1.98506"/>
             <text>pizz.</text>
             </StaffText>
           <Harmony>
             <name>199</name>
-            <offset x="0" y="-4.96988"/>
+            <offset x="0" y="-3.9759"/>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -4376,7 +4380,7 @@
             </Rest>
           <StaffText>
             <minDistance>-2.95783</minDistance>
-            <offset x="-0.987952" y="-1.05435"/>
+            <offset x="-0.790362" y="-0.84348"/>
             <text>arco</text>
             </StaffText>
           <Harmony>
@@ -5192,6 +5196,10 @@
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -5265,6 +5273,10 @@
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -5318,6 +5330,10 @@
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -6082,7 +6098,7 @@
         <voice>
           <StaffText>
             <minDistance>-5.42771</minDistance>
-            <offset x="-2.30522" y="-1.65803"/>
+            <offset x="-1.84418" y="-1.32642"/>
             <text>pizz.</text>
             </StaffText>
           <Dynamic>
@@ -6091,7 +6107,7 @@
             </Dynamic>
           <Harmony>
             <name>319</name>
-            <offset x="0.658635" y="-4.14659"/>
+            <offset x="0.526908" y="-3.31727"/>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -6859,12 +6875,12 @@
         </Measure>
       <Measure>
         <voice>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <Harmony>
             <name>364</name>
             </Harmony>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -8729,6 +8745,10 @@
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -8761,6 +8781,10 @@
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -8813,6 +8837,10 @@
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -9008,6 +9036,10 @@
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -9123,6 +9155,10 @@
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -13122,6 +13158,10 @@
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>6</text>
+              </Number>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -13249,6 +13289,10 @@
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>6</text>
+              </Number>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -13421,6 +13465,10 @@
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>6</text>
+              </Number>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -13560,6 +13608,10 @@
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>6</text>
+              </Number>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -16903,6 +16955,10 @@
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -17617,14 +17673,6 @@
                 </prev>
               </Spanner>
             <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    <notes>1</notes>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>59</pitch>
               <tpc>19</tpc>
               </Note>
@@ -18630,12 +18678,12 @@
         </Measure>
       <Measure>
         <voice>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <Harmony>
             <name>596</name>
             </Harmony>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -18836,11 +18884,11 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="2.59008"/>
+            <offset x="0" y="-0.996186"/>
             <durationType>16th</durationType>
             </Rest>
           <Rest>
-            <offset x="-0.597711" y="1.79313"/>
+            <offset x="-0.597711" y="-0.19924"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
@@ -19684,6 +19732,10 @@
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -20217,6 +20269,10 @@
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -20290,6 +20346,10 @@
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -20337,6 +20397,10 @@
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -23322,6 +23386,10 @@
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>6</text>
+              </Number>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -23449,6 +23517,10 @@
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>6</text>
+              </Number>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -23605,6 +23677,10 @@
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>6</text>
+              </Number>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -23732,6 +23808,10 @@
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>6</text>
+              </Number>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -25697,6 +25777,10 @@
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -25770,6 +25854,10 @@
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -25828,6 +25916,10 @@
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
