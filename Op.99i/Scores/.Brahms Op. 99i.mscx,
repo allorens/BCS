@@ -13293,11 +13293,8 @@
             <duration>3/16</duration>
             <StemDirection>up</StemDirection>
             <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
               </Note>
             <Tremolo>
               <subtype>c16</subtype>
@@ -17865,7 +17862,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>398</name>
+            <name>298</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -49411,6 +49408,7 @@
               </Note>
             </Chord>
           <Rest>
+            <offset x="-0.259059" y="-12.4348"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>

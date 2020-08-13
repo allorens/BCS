@@ -7576,6 +7576,7 @@
         <voice>
           <Harmony>
             <name>537</name>
+            <offset x="0.259059" y="-1.2047"/>
             </Harmony>
           <Tuplet>
             <normalNotes>4</normalNotes>
@@ -7662,6 +7663,7 @@
         <voice>
           <Harmony>
             <name>555</name>
+            <offset x="0.259059" y="-0.686587"/>
             </Harmony>
           <Tuplet>
             <normalNotes>4</normalNotes>
@@ -17862,7 +17864,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>398</name>
+            <name>298</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -28234,6 +28236,7 @@
             </Dynamic>
           <Harmony>
             <name>1027</name>
+            <offset x="-6.47648" y="-2.66995"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -29405,6 +29408,8 @@
             </StaffText>
           <Harmony>
             <name>1051</name>
+            <minDistance>0.273455</minDistance>
+            <offset x="-5.95836" y="-1.99025"/>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -38304,6 +38309,10 @@
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            <Note>
+              <pitch>77</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
