@@ -33985,9 +33985,6 @@
               <pitch>95</pitch>
               <tpc>19</tpc>
               </Note>
-            <Arpeggio>
-              <subtype>0</subtype>
-              </Arpeggio>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
@@ -48404,9 +48401,6 @@
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
-            <Arpeggio>
-              <subtype>0</subtype>
-              </Arpeggio>
             </Chord>
           <Chord>
             <durationType>half</durationType>

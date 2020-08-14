@@ -7,7 +7,7 @@
     <rights>©</rights>
     <encoding>
       <software>Finale v26 for Windows</software>
-      <encoding-date>2020-07-19</encoding-date>
+      <encoding-date>2020-08-14</encoding-date>
       <supports attribute="new-system" element="print" type="yes" value="yes"/>
       <supports attribute="new-page" element="print" type="yes" value="yes"/>
       <supports element="accidental" type="yes"/>
@@ -200,7 +200,10 @@
         <instrument-name>ARIA Player</instrument-name>
         <instrument-sound>strings.cello</instrument-sound>
         <solo/>
-        <virtual-instrument/>
+        <virtual-instrument>
+          <virtual-library>Garritan Instruments for Finale</virtual-library>
+          <virtual-name>007. Solo Strings/3. Cello/Cello Solo KS</virtual-name>
+        </virtual-instrument>
       </score-instrument>
       <midi-device>ARIA Player</midi-device>
       <midi-instrument id="P1-I1">
@@ -216,7 +219,10 @@
       <score-instrument id="P2-I2">
         <instrument-name>ARIA Player</instrument-name>
         <instrument-sound>keyboard.piano</instrument-sound>
-        <virtual-instrument/>
+        <virtual-instrument>
+          <virtual-library>Garritan Instruments for Finale</virtual-library>
+          <virtual-name>005. Keyboards/Steinway Piano</virtual-name>
+        </virtual-instrument>
       </score-instrument>
       <midi-device>ARIA Player</midi-device>
       <midi-instrument id="P2-I2">
@@ -24147,7 +24153,7 @@
       <print new-system="yes"/>
       <direction placement="below">
         <direction-type>
-          <wedge default-y="-62" spread="15" type="diminuendo"/>
+          <wedge default-y="-62" spread="11" type="diminuendo"/>
         </direction-type>
         <staff>1</staff>
       </direction>
@@ -24171,7 +24177,7 @@
           <slur number="1" placement="above" type="start"/>
         </notations>
       </note>
-      <note default-x="104">
+      <note default-x="103">
         <pitch>
           <step>C</step>
           <octave>5</octave>
@@ -24187,7 +24193,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note default-x="126">
+      <note default-x="123">
         <pitch>
           <step>G</step>
           <octave>5</octave>
@@ -24206,7 +24212,7 @@
           <tuplet number="1" type="stop"/>
         </notations>
       </note>
-      <note default-x="148">
+      <note default-x="144">
         <pitch>
           <step>C</step>
           <octave>5</octave>
@@ -24225,7 +24231,7 @@
           <tuplet number="1" placement="below" show-number="none" type="start"/>
         </notations>
       </note>
-      <note default-x="170">
+      <note default-x="165">
         <pitch>
           <step>G</step>
           <octave>5</octave>
@@ -24247,7 +24253,7 @@
         </direction-type>
         <staff>1</staff>
       </direction>
-      <note default-x="193">
+      <note default-x="186">
         <pitch>
           <step>C</step>
           <octave>5</octave>
@@ -24286,7 +24292,7 @@
           <tuplet number="1" placement="below" show-number="none" type="start"/>
         </notations>
       </note>
-      <note default-x="237">
+      <note default-x="235">
         <pitch>
           <step>B</step>
           <octave>4</octave>
@@ -24302,7 +24308,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note default-x="259">
+      <note default-x="256">
         <pitch>
           <step>F</step>
           <octave>5</octave>
@@ -24321,7 +24327,7 @@
           <tuplet number="1" type="stop"/>
         </notations>
       </note>
-      <note default-x="281">
+      <note default-x="277">
         <pitch>
           <step>D</step>
           <octave>5</octave>
@@ -24340,7 +24346,7 @@
           <tuplet number="1" placement="above" show-number="none" type="start"/>
         </notations>
       </note>
-      <note default-x="303">
+      <note default-x="306">
         <pitch>
           <step>F</step>
           <octave>4</octave>
@@ -24357,7 +24363,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note default-x="326">
+      <note default-x="327">
         <pitch>
           <step>D</step>
           <octave>5</octave>
@@ -24403,7 +24409,7 @@
         <stem default-y="53.5">up</stem>
         <staff>2</staff>
       </note>
-      <note default-x="281">
+      <note default-x="277">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -24427,6 +24433,9 @@
         <type>half</type>
         <stem default-y="-55">down</stem>
         <staff>2</staff>
+        <notations>
+          <arpeggiate default-x="-8" number="2"/>
+        </notations>
       </note>
       <note default-x="82">
         <chord/>
@@ -24439,6 +24448,9 @@
         <type>half</type>
         <stem>down</stem>
         <staff>2</staff>
+        <notations>
+          <arpeggiate default-x="-8" number="2"/>
+        </notations>
       </note>
       <note default-x="82">
         <chord/>
@@ -24451,6 +24463,9 @@
         <type>half</type>
         <stem>down</stem>
         <staff>2</staff>
+        <notations>
+          <arpeggiate default-x="-8" number="2"/>
+        </notations>
       </note>
       <note default-x="215">
         <pitch>
@@ -50498,7 +50513,6 @@
         <notations>
           <tuplet number="1" type="stop"/>
           <slur number="1" type="stop"/>
-          <glissando line-type="wavy" number="1" relative-x="13" relative-y="6" type="start"/>
         </notations>
       </note>
       <backup>
@@ -50577,8 +50591,8 @@
         <stem default-y="-20">down</stem>
         <staff>1</staff>
         <notations>
-          <glissando line-type="wavy" number="1" relative-x="-13" relative-y="34" type="stop"/>
           <slur number="1" placement="above" type="start"/>
+          <arpeggiate default-x="-13" number="1"/>
         </notations>
       </note>
       <note default-x="16">
@@ -50592,6 +50606,9 @@
         <type>quarter</type>
         <stem>down</stem>
         <staff>1</staff>
+        <notations>
+          <arpeggiate default-x="-13" number="1"/>
+        </notations>
       </note>
       <note default-x="78">
         <pitch>
@@ -50672,7 +50689,7 @@
       </backup>
       <direction placement="below">
         <direction-type>
-          <words default-y="-85" font-style="italic" relative-x="4">Ped.</words>
+          <pedal default-y="-100" line="no" type="start"/>
         </direction-type>
         <staff>2</staff>
       </direction>
@@ -51012,7 +51029,7 @@
       </backup>
       <direction placement="below">
         <direction-type>
-          <words default-y="-85" font-style="italic" relative-x="7">Ped.</words>
+          <pedal default-y="-100" line="no" type="start"/>
         </direction-type>
         <staff>2</staff>
       </direction>
@@ -51350,7 +51367,7 @@
       </backup>
       <direction placement="below">
         <direction-type>
-          <words default-y="-85" font-style="italic" relative-x="6">Ped.</words>
+          <pedal default-y="-100" line="no" type="start"/>
         </direction-type>
         <staff>2</staff>
       </direction>
@@ -52581,7 +52598,7 @@
       </backup>
       <direction placement="below">
         <direction-type>
-          <words default-y="-73" font-style="italic" relative-x="4">Ped.</words>
+          <pedal default-y="-80" line="no" type="start"/>
         </direction-type>
         <staff>2</staff>
       </direction>
@@ -55742,6 +55759,12 @@
         <type>quarter</type>
         <staff>2</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <pedal default-y="-80" line="no" type="start"/>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
       <note default-x="61">
         <pitch>
           <step>D</step>
