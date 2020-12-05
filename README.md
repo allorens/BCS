@@ -6,21 +6,21 @@ The RBC corpus presents data extracted from 21 recordings of select movements of
 
 ### Structure and size of the dataset ###
 
-In the repository, a first initial division is to be found among the various movements analysed, and, subsequently, a second one between Scape Plots, Scores and Data. In each of this folders, specific subfolders for each of the recordings are included. Data for each recording are organised by measurement unit. In each of the folders, the corresponding Sonic Visualiser file is provided, along with .txt files (see below).
+In the repository, a first initial division is to be found among the various movements analysed, and, subsequently, a second one between Scape Plots, Scores and Data. In each of this folders, specific subfolders for each of the recordings are included. Data for each recording are organised by measurement unit. In each of the folders, the corresponding Sonic Visualiser file is provided, along with .txt and merged .csv files (see below). To facilitate download, all data and SV files are compressed in a single ZIP file to be found in the main folder of the repository.
 
 
 File names in the dataset always follow a standardised format. For data obtained on the basis of note onsets, this is: movement-recording_abbreviation-NoteParameter-instrument. For data on  the basis of beats: movement-recording_abbreviation-parameter-measurement_unit. 
 
-In total, the RBC dataset contains 2725 files:
+In total, the RBC dataset contains 3225 files:
 
-| Piece | Scores | Sonic Visualiser files | .txt files | .png files |
-| ------ | ------ | -------- | ----- | ----- |
-| Op. 38i | 5 | 4 x 20 = 80 | 19 x 20 = 380 | 9x 20 = 180 |
-| Op. 38ii | 5 | 4 x 20 = 80 | 19 x 20 = 380 | 9x 20 = 180 |
-| Op. 38iii | 5 | 4 x 20 = 80 | 19 x 20 = 380 | 9x 20 = 180 |
-| Op. 99i | 5 | 3 x 15 = 45 | 14 x 15 = 210 | 9 x 15 = 135 |
-| Op. 99ii | 5 | 3 x 15 = 45 | 14 x 15 = 210 | 9 x 15 = 135 |
-| **Total** | **25** | **330** | **1560** | **810** |
+| Piece | Scores | Sonic Visualiser files | .txt files | .csv files | .png files |
+| ------ | ------ | -------- | ----- | ----- | ----- |
+| Op. 38i | 5 | 4 x 20 = 80 | 19 x 20 = 380 | 5 x 20 = 100 | 9 x 20 = 180 |
+| Op. 38ii | 5 | 4 x 20 = 80 | 19 x 20 = 380 | 5 x 20 = 100 | 9 x 20 = 180 |
+| Op. 38iii | 5 | 4 x 20 = 80 | 19 x 20 = 380 | 5 x 20 = 100 | 9 x 20 = 180 |
+| Op. 99i | 5 | 3 x 15 = 45 | 14 x 15 = 210 | 4 x 20 = 80 | 9 x 15 = 135 |
+| Op. 99ii | 5 | 3 x 15 = 45 | 14 x 15 = 210 | 6 x 20 = 120 | 9 x 15 = 135 |
+| **Total** | **25** | **330** | **1560** | **500** | **810** |
 
 ### The recordings ###
 
@@ -64,7 +64,7 @@ In each of the metadata folders, the corresponding Sonic Visualiser file is prov
 
 | Parameter | Abbreviation | Unit |
 |---------- | ------------ | ----|
-| Beat and note onsets | tappings/onsets | s |
+| Beat and note onsets | onsets | s |
 | Beat and note durations | duration | s |
 | Tempo fluctuations | tempo | bpm |
 | Continuous dynamic variations | smoothed_power | dB |
@@ -81,7 +81,7 @@ Exceptionally, smoothed_power files lack the third column, as measurements are m
 
 
 ## Expansion of the dataset ##
-It is expected that data from the same 21 recordings of the third and fourth movements of Brahms’s Op. 99 will be uploaded to the repository by the end of 2021. Similarly, data from further recordings will be added in the future. In the hope of creating a collaborative repository too, the RBC affords expansion to host data extracted from recordings of other compositions by Brahms. The Violin Sonatas Opp. 78, 100 and 108 are contemplated as the first step in that direction. 
+It is planned to expand the dataset by including recordings of the third and fourth movements of Brahms’s Op. 99. Similarly, data from further recordings will be added in the future. In the hope of creating a collaborative repository too, the RBC affords expansion to host data extracted from recordings of other compositions by Brahms. The Violin Sonatas Opp. 78, 100 and 108 are contemplated as the first step in that direction. 
 
 ## Use of the dataset ##
-All files are shared under a [Creative Commons Attribution Non-Commercial Share-Alike 4.0 (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+All files are shared under a [Creative Commons Attribution Non-Commercial Share-Alike 4.0 (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) licence.
