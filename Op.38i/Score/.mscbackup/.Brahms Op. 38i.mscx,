@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
-  <programVersion>3.4.2</programVersion>
-  <programRevision>148e43f</programRevision>
+  <programVersion>3.5.2</programVersion>
+  <programRevision>465e7b6</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -9,6 +9,7 @@
     <Style>
       <staffDistance>8</staffDistance>
       <minSystemDistance>12.1</minSystemDistance>
+      <harmonyPlay>0</harmonyPlay>
       <Spatium>1.4464</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -110,6 +111,16 @@
           <midiPort>0</midiPort>
           <midiChannel>2</midiChannel>
           </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
+          <controller ctrl="7" value="101"/>
+          <controller ctrl="10" value="87"/>
+          <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>3</midiChannel>
+          </Channel>
         </Instrument>
       </Part>
     <Part>
@@ -184,6 +195,14 @@
           <synti>Fluid</synti>
           <midiPort>1</midiPort>
           <midiChannel>1</midiChannel>
+          </Channel>
+        <Channel name="harmony">
+          <program value="0"/>
+          <controller ctrl="7" value="101"/>
+          <controller ctrl="10" value="39"/>
+          <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>4</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -33970,21 +33989,14 @@
             <Note>
               <pitch>83</pitch>
               <tpc>19</tpc>
-              <Spanner type="Glissando">
-                <prev>
-                  <location>
-                    <staves>1</staves>
-                    <measures>-138</measures>
-                    <fractions>1/4</fractions>
-                    <notes>3</notes>
-                    </location>
-                  </prev>
-                </Spanner>
               </Note>
             <Note>
               <pitch>95</pitch>
               <tpc>19</tpc>
               </Note>
+            <Arpeggio>
+              <subtype>0</subtype>
+              </Arpeggio>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
@@ -46675,21 +46687,6 @@
                 </Spanner>
               <pitch>72</pitch>
               <tpc>14</tpc>
-              <Spanner type="Glissando">
-                <Glissando>
-                  <subtype>1</subtype>
-                  <diagonal>1</diagonal>
-                  <anchor>3</anchor>
-                  </Glissando>
-                <next>
-                  <location>
-                    <staves>-1</staves>
-                    <measures>138</measures>
-                    <fractions>-1/4</fractions>
-                    <notes>-3</notes>
-                    </location>
-                  </next>
-                </Spanner>
               </Note>
             </Chord>
           </voice>
@@ -48401,6 +48398,9 @@
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
+            <Arpeggio>
+              <subtype>0</subtype>
+              </Arpeggio>
             </Chord>
           <Chord>
             <durationType>half</durationType>

@@ -54,7 +54,7 @@ The RBC corpus offeres data from the following recordings:
 ### The data ###  
 
 In the repository, scores, scape plots and performance metadata can be found. Scores are offered in PDF, MIDI, musicXML, .musx and .mscx formats. In order to facilitate navigation, .mscx scores contain note numberings for each part (piano or cello) separately. Data for each recording are organised by measurement unit:
-1. Op. 38i: note/ crotchet beat / minim beat / bar
+1. Op. 38i: note / crotchet beat / minim beat / bar
 2. Op. 38ii: note / quaver beat / crotchet beat / bar
 3. Op. 38iii: note / crotchet beat / minim beat / bar 
 4. Op. 99i: note / crotchet beat / bar
@@ -76,6 +76,9 @@ All .txt files present the same internal structure:
 -	column 3: instant label as bar.beat or as note number
 
 Exceptionally, smoothed_power files lack the third column, as measurements are made on a continuous basis and not at specific beat instants; dB_per_beat files lack column 2 as its position value is contained in column 1.
+
+Merged data files are provided in CSV format too. To facilitate download, they are compressed into a single ZIP file to be found in the principal data folder of the repository. Merged CSV files for beat measurements contain the following 5 columns: onset (in s), label (as measure.beat), duration (in s), tempo (in bpm) and intensity (in dB). Merged CSV files for note data are restricted to: onset (in s), label
+(as note number), duration (in s), and bar in which the particular note appears. 
 
 
 

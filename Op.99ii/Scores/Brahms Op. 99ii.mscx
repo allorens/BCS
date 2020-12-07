@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
-  <programVersion>3.4.2</programVersion>
-  <programRevision>148e43f</programRevision>
+  <programVersion>3.5.2</programVersion>
+  <programRevision>465e7b6</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -9,6 +9,7 @@
     <Style>
       <staffDistance>8</staffDistance>
       <minSystemDistance>12.1</minSystemDistance>
+      <harmonyPlay>0</harmonyPlay>
       <smallStaffMag>0.6</smallStaffMag>
       <Spatium>1.4464</Spatium>
       </Style>
@@ -110,6 +111,16 @@
           <midiPort>0</midiPort>
           <midiChannel>2</midiChannel>
           </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
+          <controller ctrl="7" value="101"/>
+          <controller ctrl="10" value="87"/>
+          <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>3</midiChannel>
+          </Channel>
         </Instrument>
       </Part>
     <Part>
@@ -182,6 +193,14 @@
           <synti>Fluid</synti>
           <midiPort>1</midiPort>
           <midiChannel>1</midiChannel>
+          </Channel>
+        <Channel name="harmony">
+          <program value="0"/>
+          <controller ctrl="7" value="101"/>
+          <controller ctrl="10" value="39"/>
+          <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>4</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -17520,9 +17539,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>33</name>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -17567,7 +17583,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>541</name>
+            <name>533</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>

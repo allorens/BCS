@@ -7869,6 +7869,13 @@
           </voice>
         </Measure>
       <Measure len="2/4">
+        <Jump>
+          <style>Repeat Text Right</style>
+          <text>Allegretto sin'  D.C. al Fine</text>
+          <jumpTo>start</jumpTo>
+          <playUntil>fine</playUntil>
+          <continueAt></continueAt>
+          </Jump>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -24787,27 +24794,10 @@
             <Note>
               <pitch>64</pitch>
               <tpc>18</tpc>
-              <Spanner type="Glissando">
-                <Glissando>
-                  <subtype>1</subtype>
-                  <diagonal>1</diagonal>
-                  <anchor>3</anchor>
-                  <Segment>
-                    <subtype>0</subtype>
-                    <offset x="-2.93412" y="-1.15269"/>
-                    <off2 x="-11.7511" y="2.56691"/>
-                    <offset x="-2.93412" y="-1.15269"/>
-                    </Segment>
-                  </Glissando>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-1/4</fractions>
-                    <notes>-3</notes>
-                    </location>
-                  </next>
-                </Spanner>
               </Note>
+            <Arpeggio>
+              <subtype>0</subtype>
+              </Arpeggio>
             </Chord>
           </voice>
         </Measure>
@@ -24825,15 +24815,6 @@
             <Note>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <Spanner type="Glissando">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <fractions>1/4</fractions>
-                    <notes>3</notes>
-                    </location>
-                  </prev>
-                </Spanner>
               </Note>
             <Note>
               <pitch>59</pitch>
@@ -24849,27 +24830,10 @@
                 </Accidental>
               <pitch>68</pitch>
               <tpc>22</tpc>
-              <Spanner type="Glissando">
-                <Glissando>
-                  <subtype>1</subtype>
-                  <diagonal>1</diagonal>
-                  <anchor>3</anchor>
-                  <Segment>
-                    <subtype>0</subtype>
-                    <offset x="-3.77244" y="-0.733531"/>
-                    <off2 x="-9.83026" y="1.66022"/>
-                    <offset x="-3.77244" y="-0.733531"/>
-                    </Segment>
-                  </Glissando>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-1/4</fractions>
-                    <notes>-3</notes>
-                    </location>
-                  </next>
-                </Spanner>
               </Note>
+            <Arpeggio>
+              <subtype>1</subtype>
+              </Arpeggio>
             </Chord>
           <Rest>
             <durationType>quarter</durationType>
@@ -24887,15 +24851,6 @@
             <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <Spanner type="Glissando">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <fractions>1/4</fractions>
-                    <notes>3</notes>
-                    </location>
-                  </prev>
-                </Spanner>
               </Note>
             <Note>
               <pitch>60</pitch>

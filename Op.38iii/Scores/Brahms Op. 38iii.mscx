@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
-  <programVersion>3.4.2</programVersion>
-  <programRevision>148e43f</programRevision>
+  <programVersion>3.5.2</programVersion>
+  <programRevision>465e7b6</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -9,6 +9,7 @@
     <Style>
       <staffDistance>8</staffDistance>
       <minSystemDistance>12.1</minSystemDistance>
+      <harmonyPlay>0</harmonyPlay>
       <Spatium>1.246</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -110,6 +111,16 @@
           <midiPort>0</midiPort>
           <midiChannel>2</midiChannel>
           </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
+          <controller ctrl="7" value="101"/>
+          <controller ctrl="10" value="87"/>
+          <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>3</midiChannel>
+          </Channel>
         </Instrument>
       </Part>
     <Part>
@@ -183,6 +194,14 @@
           <synti>Fluid</synti>
           <midiPort>1</midiPort>
           <midiChannel>1</midiChannel>
+          </Channel>
+        <Channel name="harmony">
+          <program value="0"/>
+          <controller ctrl="7" value="101"/>
+          <controller ctrl="10" value="39"/>
+          <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>4</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -3697,7 +3716,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>2219</name>
+            <name>219</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -6376,7 +6395,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>367¡6</name>
+            <name>366</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -6584,7 +6603,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>389</name>
+            <name>379</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -6808,7 +6827,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>493</name>
+            <name>393</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7634,7 +7653,7 @@
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
-            <name>454</name>
+            <name>444</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -10636,7 +10655,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>643</name>
+            <name>613</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -22751,6 +22770,9 @@
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <Spanner type="Tie">
                 <Tie>
                   </Tie>
@@ -23688,7 +23710,7 @@
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
               <pitch>71</pitch>
@@ -23706,7 +23728,7 @@
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
               <pitch>67</pitch>
@@ -40929,6 +40951,9 @@
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <Spanner type="Tie">
                 <Tie>
                   </Tie>
@@ -41914,7 +41939,7 @@
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
               <pitch>71</pitch>
@@ -41932,7 +41957,7 @@
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
               <pitch>67</pitch>
@@ -44615,7 +44640,7 @@
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -53148,7 +53173,7 @@
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
               <pitch>47</pitch>
@@ -53166,7 +53191,7 @@
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
               <pitch>43</pitch>
@@ -68687,7 +68712,7 @@
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
               <Accidental>
@@ -68708,7 +68733,7 @@
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
               <pitch>52</pitch>
