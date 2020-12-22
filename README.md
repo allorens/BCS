@@ -80,7 +80,7 @@ Exceptionally, smoothed_power files lack the third column, as measurements are m
 Merged data files are provided in CSV format too. To facilitate download, they are compressed into a single ZIP file to be found in the principal data folder of the repository. Merged CSV files for beat measurements contain the following 5 columns: onset (in s), label (as measure.beat), duration (in s), tempo (in bpm) and intensity (in dB). Merged CSV files for note data are restricted to: onset (in s), label
 (as note number), duration (in s), and bar in which the particular note appears. 
 
-
+All listings follow alphabetical order. File names in the dataset always follow a standardized format. For data obtained on the basis of note onsets, this is: movement-recording_abbreviation-NoteParameter-instrument. For data on the basis of beats: movement-recording_abbreviation-parameter-measurement_unit. 
 
 
 ## Expansion of the dataset ##
