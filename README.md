@@ -87,6 +87,6 @@ All listings follow alphabetical order. File names in the dataset always follow 
 It is planned to expand the dataset by including recordings of the third and fourth movements of Brahms’s Op. 99. Similarly, data from further recordings will be added in the future. In the hope of creating a collaborative repository too, the RBC affords expansion to host data extracted from recordings of other compositions by Brahms. The Violin Sonatas Opp. 78, 100 and 108 are contemplated as the first step in that direction. 
 
 ## Use of the dataset ##
-Please cite as Llorens, Ana (2021). The Recorded Brahms Corpus (RBC): A Dataset of Performative Parameters in Recordings of Brahms’s Cello Sonatas. _Empirical Musicology Review_ 16/1-2, forthcoming.
+Please cite as Llorens, Ana (2021). The Recorded Brahms Corpus (RBC): A Dataset of Performative Parameters in Recordings of Brahms’s Cello Sonatas. _Empirical Musicology Review_ 16/1-2 (2021), 124-133, https://doi.org/10.18061/emr.v16i1.7612.
 
 All files are shared under a [Creative Commons Attribution Non-Commercial Share-Alike 4.0 (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) licence.
