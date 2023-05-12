@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="3.01">
-  <programVersion>3.5.2</programVersion>
-  <programRevision>465e7b6</programRevision>
+<museScore version="3.02">
+  <programVersion>3.6.2</programVersion>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -10,6 +10,8 @@
       <staffDistance>8</staffDistance>
       <minSystemDistance>12.1</minSystemDistance>
       <harmonyPlay>0</harmonyPlay>
+      <usePre_3_6_defaults>1</usePre_3_6_defaults>
+      <defaultsVersion>301</defaultsVersion>
       <Spatium>1.4464</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -23,6 +25,7 @@
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle">Sonata No.1 for Piano and Cello, Op. 38</metaTag>
+    <metaTag name="mscVersion"></metaTag>
     <metaTag name="originalFormat">musicxml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
@@ -37,7 +40,7 @@
           </StaffType>
         </Staff>
       <trackName>Cello</trackName>
-      <Instrument>
+      <Instrument id="violoncello">
         <longName>Cello</longName>
         <shortName>Vc.</shortName>
         <trackName>ARIA Player</trackName>
@@ -137,7 +140,7 @@
           </StaffType>
         </Staff>
       <trackName>Piano</trackName>
-      <Instrument>
+      <Instrument id="piano">
         <longName>Piano</longName>
         <shortName>Pno.</shortName>
         <trackName>ARIA Player</trackName>
@@ -209,6 +212,7 @@
     <Staff id="1">
       <VBox>
         <height>9.6</height>
+        <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Composer</style>
           <text><font size="9.6"></font>Johannes Brahms</text>
@@ -242,7 +246,7 @@
             <sigD>4</sigD>
             </TimeSig>
           <Tempo>
-            <tempo>2.1</tempo>
+            <tempo>2.1000000000000001</tempo>
             <followText>1</followText>
             <placement>below</placement>
             <minDistance>-999</minDistance>
@@ -250,7 +254,7 @@
             <text><font size="9.6"></font><b>Allegro non troppo</b></text>
             </Tempo>
           <Tempo>
-            <tempo>2.1</tempo>
+            <tempo>2.1000000000000001</tempo>
             <followText>1</followText>
             <text><font size="9.6"></font><b>Allegro non troppo</b></text>
             </Tempo>
@@ -9235,7 +9239,7 @@
                   </Tie>
                 <next>
                   <location>
-                    <fractions>5/8</fractions>
+                    <fractions>1/2</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -9263,11 +9267,15 @@
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>51</pitch>
-              <tpc>23</tpc>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
               </Note>
             <Note>
               <Spanner type="Tie">
@@ -9300,17 +9308,6 @@
               </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-5/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>50</pitch>
               <tpc>16</tpc>
               </Note>
@@ -16028,7 +16025,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>857</name>
+            <name>858</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
